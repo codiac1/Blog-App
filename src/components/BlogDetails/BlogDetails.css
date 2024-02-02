@@ -1,0 +1,53 @@
+
+.blog-details {
+    margin: 5px auto;
+    padding: 25px;
+}
+
+.blog-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 10px 10px 20px;
+    color: #333;
+}
+
+/* Common styles for buttons */
+.edit-button,
+.delete-button,
+.like-button,
+.go-back-button {
+    font-size: 13px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.delete-button:hover,
+.like-button:hover,
+.go-back-button:hover {
+    background-color: #0056b3;
+}
+
+.edit-button i,
+.delete-button i,
+.like-button i,
+.go-back-button i {
+    margin-right: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}

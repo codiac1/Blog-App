@@ -1,0 +1,77 @@
+
+.blog-form-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-div{
+    padding: 25px;
+}
+
+.blog-form-card .header {
+    background-color: #007bff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    height: 45px;
+}
+
+.blog-form-card h2 {
+    font-size: 18px;
+    margin-left: 14px;
+}
+
+.blog-form-card label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.blog-form-card input[type="text"],
+.blog-form-card textarea,
+.blog-form-card select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    color: #333;
+    width: 100%;
+    font-size: 15px;
+}
+
+.blog-form-card textarea{
+    resize: none;
+    padding: 15px;
+}
+
+.blog-form-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.blog-form-card button:hover {
+    background-color: #00b34b;
+}
+
+.back-button{
+    text-decoration: none;
+    color: #fff;
+}
+
+

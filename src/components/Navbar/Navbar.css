@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    background-color: #4361ee;
+    padding: 7px;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 1px 1.5px #3a86ff;
+}
+
+.navbar_content {
+    display: flex;
+    gap: 27px;
+    margin: 7px 0px 0px 15px;
+}
+
+.add_button {
+    border: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 6px;
+    background-color: 0A46E4;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.add_button :hover{
+    
+    background-color: green;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+p{
+    color: white
+}
